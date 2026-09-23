@@ -178,7 +178,7 @@
         },
         "uwsgi": {
             "hashes": [
-                "sha256:77b6dd5cd633f4ae87ee39f7701f617736815499407376e78f3d16467523afe"
+                "sha256:77b6dd5cd633f4ae87ee393f7701f617736815499407376e78f3d16467523afe"
             ],
             "index": "pypi",
             "version": "==2.0.24"

@@ -129,7 +129,7 @@ jobs:
             --repository-names "$ECR_REPOSITORY" \
             --query 'repositories[0].repositoryUri' \
             --output text)
-          kustomize edit set image frontend="$registry/$ECR_REPOSITORY:$GITHUB_SHA"
+          kustomize edit set image frontend="$registry:$GITHUB_SHA"
 
       - name: Apply Kubernetes manifests
         working-directory: starter/frontend/k8s
